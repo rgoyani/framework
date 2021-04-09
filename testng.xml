@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name = "qaAcademy.Listeners"/>
+</listeners>
+
+
+ <test name="Validating multiple login users">
+    <classes>
+      <class name="qaAcademy.DataProviderLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+  <test name="Validating Home page title">
+    <classes>
+       <class name="qaAcademy.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Validating practice page">
+    <classes>
+      <class name="qaAcademy.PracticePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
