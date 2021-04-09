@@ -19,7 +19,7 @@ public class nestedloop {
 		
 		}
 	
-		System.out.println( "");
+		System.out.println("nested loop");
 		
 
 	}
