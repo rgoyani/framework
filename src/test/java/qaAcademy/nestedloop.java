@@ -20,6 +20,8 @@ public class nestedloop {
 		}
 	
 		System.out.println("nested loop");
+		System.out.println("nested loop");
+		
 		
 
 	}
