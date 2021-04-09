@@ -37,8 +37,8 @@ public class DataProviderLoginTest extends base{
 	    lgn.enterEmail().sendKeys(User);
 	    lgn.enterPassword().sendKeys(Password);
 	    lgn.clickLogin().click();
-	   log.info(Text);
-	    
+	    log.info(Text);
+	    System.out.println("pull check");
 	   
 	
 	}
