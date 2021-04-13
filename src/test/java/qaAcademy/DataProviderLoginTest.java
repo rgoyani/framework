@@ -51,7 +51,7 @@ public class DataProviderLoginTest extends base{
  
  data[0][0]="restricteduser@gmail.com";
  data[0][1]="123456";
- data[0][2]="Restricted user";
+ data[0][2]="Restricted users";
  
  data[1][0]="nonrestricteduser@gmail.com";
  data[1][1]="12345";
